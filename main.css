@@ -1,0 +1,295 @@
+.background {
+  width: 100%;
+  height: 40%;
+  min-height: 40vh;
+  background-image: url("image1.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  color: white;
+  position: absolute 80px;
+  background-attachment: fixed;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  
+
+}
+
+.backgroundDraft {
+  width: 100%;
+  max-width: 100%;
+  height: 45%;
+  min-height: 45vh;
+  background-image: url("draftImage.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 5px;
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+
+.background1 {
+  width: 100%;
+  height: 70%;
+  min-height: 70vh;
+  background-image: url("image3.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  color: white;
+  position: absolute 80px;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 5px;
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.background2 {
+  width: 100%;
+  height: 50%;
+  min-height: 50vh;
+  background-image: url("image4.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  color: white;
+  position: absolute 80px;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 0px;
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+
+}
+
+.background3 {
+  width: 100%;
+  height: 30%;
+  min-height: 30vh;
+  background-image: url("gardenRoomsMain.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  color: white;
+  position: absolute 80px;
+  background-attachment: fixed;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 5px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  
+
+}
+.background4 {
+  width: 100%;
+  height: 30%;
+  min-height: 30vh;
+  background-image: url("extensionsMain.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  color: white;
+  position: absolute 80px;
+  background-attachment: fixed;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 5px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  
+
+}
+
+.backgroundContent {
+  text-align: center;
+  font-size: 40px;
+}
+
+.backgroundContent1 {
+  padding-left: 40px;       /* text padding */
+  max-width: 100%;   /* optional: keeps text readable */
+  font-size: 30px;
+  margin-top: -80px;
+  
+}
+
+.backgroundContent {
+  padding-left: 40px;
+  padding-right: 40px;       /* text padding */
+  max-width: 100%;   /* optional: keeps text readable */
+  font-size: 30px;
+}
+
+body  {
+    background-color: #424242;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/* Overlapping box */
+.overlapBox {
+  position: absolute;
+  left: 20%;
+  bottom: -60px;                   /* pushes it halfway out */
+  transform: translateX(-50%);
+  background: #81ad54;
+  color: #333;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 32px;
+  border-radius: 60px;
+  margin-bottom: -60px;
+  font-size: 40px;
+  
+}
+
+.content  {
+    border-style: solid;
+    border-color: #81ad54;
+    border-top-width: 5px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: white;  
+    width: 100%;
+}
+
+.contentText {
+  width: 45%;
+  float: left;
+  padding-left: 40px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.contentImage  {
+  width: 40%;
+  float: right;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.filler  {
+  padding: 20px;
+}
+
+.contactsRight  {
+  width: 40%;
+  float: right;
+  padding-left: 20px;
+  padding-right: 40px;
+
+}
+
+.contactsLeft  {
+  width: 40%;
+  float: left;
+  padding-right: 40px;
+  padding-bottom: 20px;
+
+}
+
+.contacts  {
+  padding-left: 40px;
+  color: white;
+  border-style: solid;
+  border-color: #81ad54;
+  border-width: 10px;
+  font-size: 20px;
+}
+
+.site-footer  {
+  color: #424242;
+  background-color: #81ad54;
+  border-style: solid;
+  border-color: #81ad54;
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  font-size: 15px;
+  padding-left: 40px;
+  box-shadow: 0 50vh 0 50vh #81ad54;
+}
+
+a  {
+  color: inherit;
+}
+
+.banner1 {
+  width: 100%;
+  height: 30%;
+  min-height: 30vh;
+  background-image: url("banner1.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  color: white;
+  position: absolute 80px;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.ground1 {
+  width: 100%;
+  max-width: 100%;
+  height: 45%;
+  min-height: 45vh;
+  background-image: url("ground1.jpg");
+  background-size: cover;        /* fill the div */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 5px;
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding-bottom: 40px;
+}

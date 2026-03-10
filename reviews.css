@@ -1,0 +1,51 @@
+.reviews {
+  padding-top: 50px;
+  position: relative;
+  max-width: 800px;
+  height: 230px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.review {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  animation: rotateReviews 12s infinite;
+  text-align: center;
+  font-size: 1.1rem;
+  font-size: 30px;
+  color: white;
+}
+
+.review span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.name  {
+    color: #81ad54;
+    font-size: 30px;
+}
+
+.iconImage  {
+    position: relative;
+    color: white;
+    filter: invert(100%);
+}
+
+
+
+/* Stagger animation timing */
+.review:nth-child(1) { animation-delay: 0s; }
+.review:nth-child(2) { animation-delay: 4s; }
+.review:nth-child(3) { animation-delay: 8s; }
+
+@keyframes rotateReviews {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
