@@ -144,3 +144,13 @@
     color: white;  
     width: 100%;
 }
+
+.banner3 {
+  width: 100%;
+  border-style: solid;
+  border-color: #81ad54;
+  border-bottom-width: 0px;
+  border-top-width: 5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
